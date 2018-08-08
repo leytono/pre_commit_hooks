@@ -1,0 +1,14 @@
+- id: eclipse-formatter
+  name: Eclipse Java Formatter
+  description: This hook formats Java code with the Eclipse formatter.
+  entry: eclipse-formatter
+  language: python
+  types:
+    - java
+- id: google-java-formatter
+  name: Google Java Formatter
+  description: This hook formats Java code with Google Java Formatter.
+  entry: google-java-formatter
+  language: python
+  types:
+    - java
